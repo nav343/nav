@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
     name='nav_tts_sr',
     packages=['nav_tts_v1'],
-    version='0.2',
+    version='0.3',
     license='MIT',
     description='A module which simplifies stuff related to voice',
     author='Navaneeth K',
