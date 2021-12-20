@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-    name='nav',
-    packages=['nav'],
+    name='nav-snmlogic',
+    packages=['nav-snmlogic'],
     version='0.1',
     license='MIT',
     description='A module which simplifies stuff related to voice',
