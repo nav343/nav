@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
     name='nav_snmlogic',
-    packages=['nav-tts'],
+    packages=['nav_tts'],
     version='0.1',
     license='MIT',
     description='A module which simplifies stuff related to voice',
