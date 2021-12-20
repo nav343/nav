@@ -13,7 +13,7 @@ Nav is a Python module which simplifies voice related stuff in Python.
 ## Usage
 
 - Make a `.py` file.
-- Import Module class from the nav module. `from nav import Module`
+- Import Module class from the nav module. `from nav-tts-sr import Module`
 - Use `Module.Voice.speak("Your text here", "voice_gender")` to use the Text-To-Speech (TTS)
 - Use `Module.Voice.listen.said_text()` to use the speech_recognition.
 - You can use `Module.Music.play_music(path)` to play a music and `Module.Music.beep(hz, ms)` to make a beep sound.
@@ -21,7 +21,7 @@ Nav is a Python module which simplifies voice related stuff in Python.
 ## Example (TTS)
 
 ```
-from nav import Module
+from nav-tts-sr import Module
 
 my_text = "Your text here"
 Module.Voice.speak(my_text, "male")
