@@ -12,7 +12,6 @@ setup(
     keywords=['Voice', 'Nav', 'TTS'],
     install_requires=[
         'pyttsx3',
-        'speech_recognition',
         'pyaudio'
     ],
     classifiers=[
